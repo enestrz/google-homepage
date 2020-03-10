@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        font-family: arial,sans-serif;
+    }
+    nav{
+        margin: 20px;
+        font-size: small;
+    }
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+    li{
+        display: inline;    
+    }
+   a{
+        text-decoration: none;
+        color: #000;
+        margin-right: 10px;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .navright{
+        
+        float: right;
+        margin-left: -100px;
+    }
+    
+    .middle {
+        margin-top: 195px;
+        margin-left: 43%;
+        display: block;
+        
+    }
+    
+    #gsearch {
+        display: block;
+        border-radius: 25px;
+        border : 1px solid #d8d7d7da;
+        cursor: default;
+        margin-top: 25px;
+        margin-left: -170px;
+        width: 600px;
+        height: 45px;
+        text-indent: 10px;
+        font-size: 14pt;
+        
+        
+    }
+    #gsearch:hover{
+        border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+    }
+    #gsearch:focus{
+        border-color: #4d90fe;
+    }
+    .butoncuk{
+        border-radius: 2px;
+        background: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        color: #757575;
+        cursor: default;
+        font-size: 14px;
+        margin-top: 16px;
+        width: 140px;
+        padding: 0 16px;
+        height:36px;
+        margin-right: 16px;
+        margin-left: -12px;
+    }
+    .butoncuk:hover{
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        background: #f8f8f8;
+        border: 1px solid #c6c6c6;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        color: #222;
+        
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100% !important; 
+        overflow: hidden;
+        background-color: #f1f1f1;
+        padding: 14px 16px;
+        font-size: small;
+    }
+    .footright{
+        float: right;
+        margin-right: 50px;
+    
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+</head>
+
+<body>
+    <nav>
+
+        <li><a href="#">About</a> </li>
+        <li><a href="#">Store</a> </li>
+        <div class="navright">
+           <li> <a href="#">Gmail</a> </li>
+           <li> <a href="#">Images</a> </li>
+        </div>
+       
+        </nav>
+    <main>
+        <div class="middle"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+
+            <br>
+            <input type="search" id="gsearch" name="gsearch" >
+            <br>
+            <input type="submit" class="butoncuk" id="araButonu" value="Google Search">
+            <input type="submit" class="butoncuk" id="feelingLucky" value="I'm Feeling Lucky">
+        </div>
+    </main>
+    <footer>
+        <li><a href="#">Advertising</a> </li>
+        <li><a href="#">Business</a> </li>
+        <li><a href="#">How Search Works</a> </li>
+        <div class="footright">
+           <li> <a href="#">Privacy</a> </li>
+           <li> <a href="#">Terms</a> </li>
+           <li> <a href="#">Settings</a> </li>
+        </div>
+    </footer>
+</body>
+
+</html>
